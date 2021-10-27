@@ -3,10 +3,12 @@ import styled from "styled-components";
 export const Main = styled.main`
 	min-width: 100vw;
 	min-height: 100vh;
+	padding: 30px;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 `;
 
 export const TextWrapper = styled.section`
@@ -14,7 +16,7 @@ export const TextWrapper = styled.section`
 	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
 
 	h1 {
@@ -33,7 +35,7 @@ export const TextWrapper = styled.section`
 `;
 
 export const Grid = styled.section`
-	max-width: 900px;
+	max-width: 960px;
 
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
