@@ -8,6 +8,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    min-width: 100vw;
+    min-height: 100vh;
     background: hsl(0, 0%, 98%);
     font-family: "Poppins", sans-serif;
   }
