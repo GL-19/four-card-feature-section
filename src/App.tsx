@@ -1,4 +1,4 @@
-import "./styles/styles.js";
+import "./styles/styles";
 import { Card } from "./components/Card";
 import { Main, Grid, TextWrapper } from "./styles/styles";
 import calculator from "./images/icon-calculator.svg";
@@ -15,8 +15,8 @@ function App() {
 					<span>Powered by Technology</span>
 				</h1>
 				<p>
-					Our Artificial Intelligence powered tools use millions of project data points to ensure
-					that your project is successful
+					Our Artificial Intelligence powered tools use millions of project data points to
+					ensure that your project is successful
 				</p>
 			</TextWrapper>
 			<Grid>
