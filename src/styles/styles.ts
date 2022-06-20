@@ -24,10 +24,12 @@ export const TextWrapper = styled.section`
 		font-weight: 200;
 		text-align: center;
 	}
+
 	span {
 		font-weight: 600;
 		text-align: center;
 	}
+
 	p {
 		color: hsl(229, 6%, 66%);
 		text-align: center;
@@ -47,7 +49,7 @@ export const Grid = styled.section`
 		" . karma . ";
 	gap: 30px;
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 960px) {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 		grid-template-areas:

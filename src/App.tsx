@@ -19,6 +19,7 @@ function App() {
 					ensure that your project is successful
 				</p>
 			</TextWrapper>
+
 			<Grid>
 				<Card
 					title="Supervisor"
